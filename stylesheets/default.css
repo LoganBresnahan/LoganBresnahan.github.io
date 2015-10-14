@@ -28,3 +28,12 @@ header h2 {
 	margin: center;
 }
 
+a:link {
+	text-decoration: none;
+}
+
+a:hover {
+	font-weight: bolder;
+	color: #cc9900;
+}
+
