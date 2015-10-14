@@ -1,3 +1,15 @@
-section {
+body {
 	background-color: #cc9900;
+}
+
+.medium {
+	height: 144px;
+	width: 144px;
+	background-color: #ff4719;
+}
+
+#picture {
+	height: 144px;
+	width: 144px;
+	margin: 13px;
 }
