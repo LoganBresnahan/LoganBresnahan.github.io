@@ -16,11 +16,15 @@ body {
 	margin: auto;
 }
 
-#header {
+header {
 	height: 144px;
 	width: 610px;
 	background-color: #ff4719;
 	float: right;
 	border: 3px solid black;
+}
+
+header h2 {
+	margin: center;
 }
 
