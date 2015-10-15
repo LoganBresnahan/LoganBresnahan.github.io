@@ -1,62 +1,129 @@
 body {
-	background-color: #cc9900;
+	background-color: #EAE7DD;
 }
 
-.medium {
-	height: 144px;
-	width: 144px;
+
+#picture_frame {
+	height: 13em;
+	width: 13em;
 	background-color: #ff4719;
-	border: 3px solid black;
-	/*padding: 9px;*/
+	/*border: 3px solid black;*/
+	position: static;
 }
+
 
 #picture {
-	height: 108px;
-	width: 108px;
+	height: 11em;
+	width: 11em;
 	margin: auto;
+	left: 1em;
+	top: 1em;
+	position: relative;
 }
+
 
 #about {
-	height: 233px;
-	width: 144px;
+	height: 21em;
+	width: 13em;
 	background-color: #ff4719;
-	border: 3px solid black;
+	/*border: 3px solid black;*/
+	top: 26.5em;
+	position: fixed;
+
 }
 
-header {
-	height: 144px;
-	width: 610px;
+#contact {
+	height: 13em;
+	width: 13em;
 	background-color: #ff4719;
-	float: right;
-	border: 3px solid black;
+	/*border: 3px solid black;*/
+	position: fixed;
+	left: 26.5em;
+	top: 26.5em;
 }
+
+
+header {
+	height: 13em;
+	width: 55em;
+	background-color: #ff4719;
+	/*border: 3px solid black;*/
+	position: fixed;
+	left: 26.5em;
+}
+
 
 header h2 {
 	margin: center;
 }
 
+
+nav {
+	height: 13em;
+	width: 13em;
+	background-color: #ff4719;
+	/*border: 3px solid black;*/
+	position: fixed;
+	left: 13.5em;
+	top: 13.5em;
+	position: fixed;
+}
+
+
 a:link {
 	text-decoration: none;
 }
 
+
 a:hover {
 	font-weight: bolder;
-	color: #cc9900;
+	color: #EAE7DD;
 }
+
 
 nav h3 a {
 	height: 72px;
 	width: 72px;
-	background-color: #cc9900;
+	background-color: #EAE7DD;
 }
 
-.social {
-	height: 89px;
-	width: 89px;
+
+#github {
+	height: 5em;
+	width: 5em;
 	background-color: #ff4719;
-	border: 3px solid black;
+	/*border: 3px solid black;*/
+	left: 49em;
+	top: 33em;
+	position: fixed;
 }
 
-/*.inline_one {*/
-	/*display: inline-block;*/
-/*}*/
+#linkedin {
+	height: 5em;
+	width: 5em;
+	background-color: #ff4719;
+	/*border: 3px solid black;*/
+	position: fixed;
+	top: 33em;
+	left: 62em;
+}
+
+#twitter {
+	height: 5em;
+	width: 5em;
+	background-color: #ff4719;
+	/*border: 3px solid black;*/
+	position: fixed;
+	top: 33em;
+	left: 75em;
+}
+
+footer {
+	height: 5em;
+	width: 55em;
+	background-color: #ff4719;
+	/*border: 3px solid black;*/
+	top: 42.5em;
+	left: 26.5em;
+	position: fixed;
+}
