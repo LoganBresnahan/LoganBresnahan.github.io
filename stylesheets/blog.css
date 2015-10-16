@@ -43,3 +43,11 @@ table {
 	left: 26.5em;
 	top: 18em;
 }
+
+div {
+	text-transform: uppercase;
+	font-size: -webkit-xxx-large;
+	display: table-caption;
+	font-family: sans-serif;
+	background-color: #ff4719
+}
