@@ -1,0 +1,45 @@
+#name h1 {
+	text-transform: uppercase;
+	font-size: -webkit-xxx-large;
+	display: table-caption;
+}
+
+#name {
+	height: 21em;
+	width: 21em;
+	background-color: #ff4719;
+	position: fixed;
+}
+
+#nav_blog {
+	height: 13em;
+	width: 13em;
+	background-color: #ff4719;
+	top: 25.5em;
+	position: fixed;
+}
+
+aside h3 {
+	height: 5.5em;
+	width: 5.5em;
+	background-color: #EAE7DD;
+	position: relative;
+	margin: 0;
+}
+
+#footer {
+	height: 5em;
+	width: 21em;
+	background-color: #ff4719;
+	top: 42.5em;
+	position: fixed;
+}
+
+table {
+	height: 29.5em;
+	width: 55em;
+	background-color: #ff4719;
+	position: fixed;
+	left: 26.5em;
+	top: 18em;
+}

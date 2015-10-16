@@ -1,0 +1,132 @@
+body {
+	background-color: #EAE7DD;
+	font-family: sans-serif;
+}
+
+
+#picture_frame {
+	height: 13em;
+	width: 13em;
+	background-color: #ff4719;
+	position: static;
+}
+
+
+#picture {
+	height: 11em;
+	width: 11em;
+	margin: auto;
+	left: 1em;
+	top: 1em;
+	position: relative;
+}
+
+
+#about {
+	height: 21em;
+	width: 13em;
+	background-color: #ff4719;
+	top: 26.5em;
+	position: fixed;
+
+}
+
+#contact {
+	height: 13em;
+	width: 13em;
+	background-color: #ff4719;
+	position: fixed;
+	left: 26.5em;
+	top: 26.5em;
+}
+
+
+header {
+	height: 13em;
+	width: 55em;
+	background-color: #ff4719;
+	position: fixed;
+	left: 26.5em;
+}
+
+
+header h2 {
+	margin: center;
+}
+
+
+nav {
+	height: 13em;
+	width: 13em;
+	background-color: #ff4719;
+	position: fixed;
+	left: 13.5em;
+	top: 13.5em;
+	position: fixed;
+}
+
+
+a:link {
+	text-decoration: none;
+}
+
+
+a:hover {
+	font-weight: bolder;
+	color: #EAE7DD;
+}
+
+a {
+	color: #C7C761;
+}
+
+nav h3 {
+	height: 5.5em;
+	width: 5.5em;
+	background-color: #EAE7DD;
+	position: relative;
+	margin: 0;
+}
+
+#projects {
+	float: right;
+	height: 5.6em;
+	width: 5.6em;
+}
+
+
+#github {
+	height: 5em;
+	width: 5em;
+	background-color: #ff4719;
+	left: 49em;
+	top: 33em;
+	position: fixed;
+}
+
+#linkedin {
+	height: 5em;
+	width: 5em;
+	background-color: #ff4719;
+	position: fixed;
+	top: 33em;
+	left: 62em;
+}
+
+#twitter {
+	height: 5em;
+	width: 5em;
+	background-color: #ff4719;
+	position: fixed;
+	top: 33em;
+	left: 75em;
+}
+
+footer {
+	height: 5em;
+	width: 55em;
+	background-color: #ff4719;
+	top: 42.5em;
+	left: 26.5em;
+	position: fixed;
+}
