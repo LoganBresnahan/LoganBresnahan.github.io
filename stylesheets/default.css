@@ -1,5 +1,6 @@
 body {
 	background-color: #EAE7DD;
+	font-family: sans-serif;
 }
 
 
@@ -80,11 +81,22 @@ a:hover {
 	color: #EAE7DD;
 }
 
+a {
+	color: #C7C761;
+}
 
-nav h3 a {
-	height: 72px;
-	width: 72px;
+nav h3 {
+	height: 5.5em;
+	width: 5.5em;
 	background-color: #EAE7DD;
+	position: relative;
+	margin: 0;
+}
+
+#projects {
+	float: right;
+	height: 5.6em;
+	width: 5.6em;
 }
 
 
