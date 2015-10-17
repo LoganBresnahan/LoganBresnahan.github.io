@@ -1,6 +1,7 @@
 body {
 	background-color: #EAE7DD;
 	font-family: sans-serif;
+	position: relative;
 }
 
 
@@ -8,7 +9,7 @@ body {
 	height: 13em;
 	width: 13em;
 	background-color: #ff4719;
-	position: static;
+	position: absolute;
 }
 
 
@@ -18,7 +19,7 @@ body {
 	margin: auto;
 	left: 1em;
 	top: 1em;
-	position: relative;
+	position: absolute;
 }
 
 
@@ -26,8 +27,8 @@ body {
 	height: 21em;
 	width: 13em;
 	background-color: #ff4719;
-	top: 26.5em;
-	position: fixed;
+	top: 26em;
+	position: absolute;
 
 }
 
@@ -35,9 +36,9 @@ body {
 	height: 13em;
 	width: 13em;
 	background-color: #ff4719;
-	position: fixed;
-	left: 26.5em;
-	top: 26.5em;
+	position: absolute;
+	left: 26em;
+	top: 26em;
 }
 
 
@@ -45,8 +46,8 @@ header {
 	height: 13em;
 	width: 55em;
 	background-color: #ff4719;
-	position: fixed;
-	left: 26.5em;
+	position: absolute;
+	left: 26em;
 }
 
 
@@ -59,10 +60,9 @@ nav {
 	height: 13em;
 	width: 13em;
 	background-color: #ff4719;
-	position: fixed;
-	left: 13.5em;
-	top: 13.5em;
-	position: fixed;
+	left: 13em;
+	top: 13em;
+	position: absolute;
 }
 
 
@@ -99,34 +99,34 @@ nav h3 {
 	height: 5em;
 	width: 5em;
 	background-color: #ff4719;
-	left: 49em;
-	top: 33em;
-	position: fixed;
+	left: 50em;
+	top: 32.75em;
+	position: absolute;
 }
 
 #linkedin {
 	height: 5em;
 	width: 5em;
 	background-color: #ff4719;
-	position: fixed;
-	top: 33em;
-	left: 62em;
+	position: absolute;
+	top: 32.75em;
+	left: 63em;
 }
 
 #twitter {
 	height: 5em;
 	width: 5em;
 	background-color: #ff4719;
-	position: fixed;
-	top: 33em;
-	left: 75em;
+	position: absolute;
+	top: 32.75em;
+	left: 76em;
 }
 
 footer {
 	height: 5em;
 	width: 55em;
 	background-color: #ff4719;
-	top: 42.5em;
-	left: 26.5em;
-	position: fixed;
+	top: 42em;
+	left: 26em;
+	position: absolute;
 }

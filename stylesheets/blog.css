@@ -8,15 +8,15 @@
 	height: 21em;
 	width: 21em;
 	background-color: #ff4719;
-	position: fixed;
+	position: absolute;
 }
 
 #nav_blog {
 	height: 13em;
 	width: 13em;
 	background-color: #ff4719;
-	top: 25.5em;
-	position: fixed;
+	top: 25em;
+	position: absolute;
 }
 
 aside h3 {
@@ -32,15 +32,15 @@ aside h3 {
 	width: 21em;
 	background-color: #ff4719;
 	top: 42.5em;
-	position: fixed;
+	position: absolute;
 }
 
 table {
 	height: 29.5em;
 	width: 55em;
 	background-color: #ff4719;
-	position: fixed;
-	left: 26.5em;
+	position: absolute;
+	left: 26em;
 	top: 18em;
 }
 
