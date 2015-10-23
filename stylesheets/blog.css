@@ -51,3 +51,8 @@ div {
 	font-family: sans-serif;
 	background-color: #ff4719
 }
+
+code {
+	color: purple;
+	font-weight: bold;
+}
