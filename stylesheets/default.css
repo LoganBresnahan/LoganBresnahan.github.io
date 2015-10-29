@@ -31,6 +31,14 @@ body {
 	position: absolute;
 }
 
+#e_picture {
+	height: 8em;
+	width: 8em;
+	margin: auto;
+	position: absolute;
+	top: 5em;
+}
+
 #about {
 	height: 21em;
 	width: 13em;
