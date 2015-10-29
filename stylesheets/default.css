@@ -24,6 +24,12 @@ body {
 	position: absolute;
 }
 
+#s_picture {
+	height: 5em;
+	width: 5em;
+	margin: auto;
+	position: absolute;
+}
 
 #about {
 	height: 21em;
