@@ -1,0 +1,88 @@
+body {
+	background-color: #EAE7DD;
+	font-family: 'Poiret One', cursive;
+	font-size: larger; 
+	/*left: 50%;*/
+	/*width: 60%;*/
+	text-align: center;
+	margin: 1%;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+header {
+	background-color: grey;
+	border-radius: 0.4em 0.4em 0 0;
+	/*height: 100%;*/
+	padding-bottom: 25%;
+}
+
+header h2 {
+	margin-bottom: 0;
+	padding-top: 1em;
+	font-size: -webkit-xxx-large;
+}
+
+nav {
+	display: -webkit-box;
+	background-color: white;
+	margin-top: 0em;
+	margin-bottom: 0em;
+	/*height: 10%;*/
+	/*border-radius: 0.4em;*/
+
+}
+nav h3 {
+	/*padding-top: 0.5%;*/
+	/*padding-bottom: 0.5%;*/
+	margin: 0%;
+	padding-left: 1em;
+	padding-right: 10em;
+	display: -webkit-inline-box;
+}
+
+nav h3 a {
+	/*padding: 0.25%;*/
+}
+
+#black_line {
+	background-color: black;
+	margin-top: 0em;
+	/*height: 15%;*/
+	border-radius: 0 0 0.4em 0.4em;
+}
+
+#black_line p {
+	margin: 0em;
+}
+
+#current_page {
+	background-color: black;
+	width: 15%;
+	display: inline-block;
+	border-radius: 0 0 0.4em 0.4em;
+}
+
+#current_page h3 {
+	color: white;
+	margin: 1em 0 1em 0;
+}
+
+section p {
+	text-align: left;
+	word-wrap: break-word;
+	font-size: larger;
+}
+
+a:link {
+	text-decoration: none;
+	text-transform: lowercase;
+}
+
+footer {
+	background-color: grey;
+	border-radius: 0.4em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	margin-top: 25%;
+}
