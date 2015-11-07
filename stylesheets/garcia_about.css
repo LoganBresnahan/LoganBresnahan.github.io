@@ -75,8 +75,13 @@ section p {
 }
 
 a:link {
-	text-decoration: none;
+	text-decoration: overline;
 	text-transform: lowercase;
+	color: black;
+}
+
+a:visited {
+	text-decoration: line-through;
 }
 
 footer {
