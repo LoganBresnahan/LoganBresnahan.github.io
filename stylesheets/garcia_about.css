@@ -84,6 +84,7 @@ nav h3 a {
 }
 
 #current_page h3 {
+	text-decoration: none;
 	color: white;
 	margin: 1em 0 1em 0;
 }
@@ -102,7 +103,7 @@ a:link {
 }
 
 a:visited {
-	text-decoration: line-through;
+	color: grey;
 }
 
 footer {
