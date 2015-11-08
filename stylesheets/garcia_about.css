@@ -6,8 +6,8 @@ body {
 	/*width: 60%;*/
 	text-align: center;
 	margin: 1%;
-	margin-left: 20%;
-	margin-right: 20%;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 
@@ -89,6 +89,7 @@ nav h3 a {
 }
 
 section p {
+	font-family: 'PT Sans Narrow', sans-serif;
 	text-align: left;
 	word-wrap: break-word;
 	font-size: larger;
@@ -109,5 +110,5 @@ footer {
 	border-radius: 0.4em;
 	padding-top: 1em;
 	padding-bottom: 1em;
-	margin-top: 25%;
+	margin-top: 15%;
 }
