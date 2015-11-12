@@ -96,6 +96,10 @@ section p {
 	font-size: larger;
 }
 
+table {
+	display: -webkit-inline-box;
+}
+
 a:link {
 	text-decoration: overline;
 	text-transform: lowercase;
