@@ -56,3 +56,8 @@ code {
 	color: purple;
 	font-weight: bold;
 }
+
+.images {
+	height: 15em;
+	width: 15em;
+}
