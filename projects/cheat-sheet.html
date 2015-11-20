@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-  <title>Logan B's Bloggey</title>
+  <title>JS Prototypes</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
   <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
@@ -11,32 +11,41 @@
   <h1>JavaScript Prototypes</h1>
   <h2>A small cheat-sheet</h2>
   <h3></h3>
-  <h4>1</h4>
+  <h4></h4>
 
   <section>
   <p>
-   All JavaScript functions have a prototype property that is empty by default. You use prototype to attach properties 
+   All JavaScript functions have a prototype property that is empty by default. You use prototype to attach properties and methods when you want to allow instances of your function to use those added properties and methods. The prototype property is not enumerable which means you can't loop through it. All examples are from: <a href="http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/">javascriptissexy.com</a>
   </p>
   <p>
-       
+       <img src="../imgs/prototype.png">
   </p>
   <p>
-  
+   <h3>Prototype Attribute</h3>
+   The prototype attribute is is like the "characteristic" of the object; this characteristic or attribute tells us the "parent" of the object. The attribute points towards the objects parent which it inherited its properties from. The prototype attribute is often called the prototype object, and it is set automatically when you create a new object. Remember, every object inherits properties from some other object, and it is this other object that is the objects prototype attribute "the parent". The prototype in an object is like a little guide book to who the parent is and what methods the parent gave to its child.
   </p>
   <p>
-    
+    <h3>Quick note about constructors</h3>
+    <img src="../imgs/constructor.png">
   </p>
   <p>
-   
+   <h3>Prototype Attribute of Objects created with new Object() of Object literals</h3>
+   <img src="../imgs/prototype2.png"><br><br>
+   On the other hand any object created with the "new" keyword and any other constructor than Object(), get their prototype from the constructor function. As seen in the first image. Similarly, something like <code>var myArray = new Array()</code> gets its prototype and inherits from Array.prototype.
   </p>
   <p>
-    
+    <h3>Some general rules</h3>
+    <img src="../imgs/prototype3.png">
   </p>
   <p>
-   
+   <h3>Why use Prototype</h3>
+   All inheritance is made possible through prototype. This would be like class inheritance in other languages. Demonstration of inheritance:<br><br><img src="../imgs/prototype4.png">
   </p>
   <p>
-    
+    <h3>Prototype chain. Or looking through the ancestors to find where the property came from.</h3>
+    <img src="../imgs/prototype5.png">
+    <br><br>An example of a chain:<br><br>
+    <img src="../imgs/prototype6.png">
   </p>
   <p>
     
